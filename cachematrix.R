@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
     get <- function() x
     set <- function(y) {
         x <<- y
-        m <<- NULL
+        inv <<- NULL
     }
 
     # Inverse accessors
